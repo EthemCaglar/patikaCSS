@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .wrapper {
+    flex: 1;
+  }
+  
+  .footer {
+    background-color: #947575;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto; /* Footer'ı en altta sabitlemek için bu satırı ekleyin */
+  }

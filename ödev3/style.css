@@ -1,0 +1,126 @@
+* {
+    padding: 10 10 0 10;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins",sans-serif;
+}
+
+:root{
+    --darkest-dark: #000000;
+    --sign--button--blue: #4584f0;
+    --button--hover: #f5f5f5;
+    --text--color: #404040;
+    --foottext-color: #5f6368;
+    --footblock-color: #f2f2f2;
+    --footborder-color: #e4e4e4;
+}
+
+body{
+    overflow: hidden;
+}
+
+.header, .footer{
+    width: 100%;
+    position: fixed;        
+    padding: 10px 10px;
+}
+
+.header{
+    top: 0;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.left{
+    margin-top: 4px;
+}
+
+.header a{
+    color: var(--text--color);
+    margin-right: 1rem;
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+.sign button{
+    line-height: 2.5;
+    font-weight: 600;
+    background-color: var(--sign--button--blue);
+    color : white;
+    box-shadow: 0 0 2px var(--darkest-dark);
+}
+
+.sign button:hover{
+    transition: 1ms linear;
+    box-shadow: 0 0 6px var(--darkest-dark);
+    cursor: pointer;
+}
+
+.sign fa:hover{
+    transition: 1ms linear;
+    color: var(--footblock-color);
+}
+
+.search-bar{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.search-bar form{
+    border-style: groove;
+    border-radius: 12px;
+    border-width: 1.5px;
+}
+
+.search-bar input{
+    box-shadow: 0 0 2px var(--darkest-dark);
+}
+
+.search-bar input:hover{
+    box-shadow: 0 0 6px var(--darkest-dark);
+}
+
+.search-bar button{
+    background-color: var(--footblock-color);
+    margin-top: 25px;
+    line-height: 2.5;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: var(--footblock-color);
+    color: var(--text--color)
+}
+
+.search-bar button:hover{
+    background-color: var(--button--hover);
+    color: var(--darkest-dark);
+}
+
+.footer{
+    bottom: 0;
+    justify-content:space-between;
+    background-color: var(--footblock-color);
+    border-style: solid;
+    border-color: var(--footborder-color);
+    border-width: 2px;
+    border-bottom: var(--foottext-color);
+    border-left: var(--foottext-color);
+    border-right: var(--foottext-color);
+    justify-content: space-between;
+    display: flex;
+}
+
+.footer a{
+    color: var(--foottext-color);
+    margin-right: 3px;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
