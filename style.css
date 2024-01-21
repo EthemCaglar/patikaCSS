@@ -1,0 +1,18 @@
+*{
+    font-family: 'Prompt', sans-serif;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+:root{
+    --lightest--dark: #7f7f7f;
+}
+
+.body{
+    background-color: black;
+}
+
+.ara{
+    text-align: center;
+  }

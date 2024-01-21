@@ -1,0 +1,122 @@
+*{
+    color: whitesmoke;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body{
+    background-image: url("https://picsum.photos/id/124/1900/1100");
+    background-position: center;
+    background-attachment: fixed;
+}
+
+nav{
+    border-radius: 100px;
+    background-color:aquamarine;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.hleft{
+    display: flex;
+}
+
+.hleft img{
+    padding-left: 5px;
+    padding-top: 3px;
+    border-radius: 100px;
+}
+
+.hleft p{
+    color: black;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.hright{
+    display: flex;
+    padding-top: 15px;
+}
+
+.hright a{
+    color:black;
+    cursor: pointer;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.abstract{
+    padding: 150px;
+    display: flex;
+}
+
+.abstract p{
+    padding-right: 170px;
+}
+
+.abstract button{
+    border-color: transparent;
+    border-width: 10px;
+    border-radius: 500px;
+}
+
+.abstract button:hover{
+    border-color: aqua;
+    border-width: 10px;
+}
+
+.innersite{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.bthome{
+    padding: 100px;
+    background-image: url("https://picsum.photos/id/201/300/300");
+    background-position: center;
+}
+
+.bthg{
+    padding: 100px;
+    background-image: url("https://picsum.photos/id/202/300/300");
+    background-position: center;
+}
+
+.btabout{
+    padding: 100px;
+    background-image: url("https://picsum.photos/id/203/300/300");
+    background-position: center;
+}
+
+.btcontact{
+    padding: 100px;
+    background-image: url("https://picsum.photos/id/204/300/300");
+    background-position: center;
+}
+
+ul{
+    display: inline-block;
+    list-style: none;
+}
+
+footer{
+    text-align: center;
+    position: absolute;
+    background-color: darkmagenta;
+    width: 100%;
+    left: 0;
+    border-radius: 1000px;
+}
+
+.feeter p{
+    color:antiquewhite;
+    text-shadow: 4px 4px 2px black;
+}
